@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after{
+     box-sizing: border-box;
+}
+
+body{
+     margin : 0 auto;
+     padding: 0 auto;
+     background-color: rgb(101,127,164);
+}
+
+a{
+     text-decoration: none;
+}
+
+button{
+     border:0;
+     outline: none;
+     cursor: pointer;
+}
+
+.navbar{
+     height: 50px;
+     background-color: rgb(58,83,115);
+     padding: 30px 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.menubtn{
+     color: white;
+     cursor: pointer;
+}
+
+
+.navbar > .logo > a{
+     font-size: 18px;
+     color: white;
+     margin-left: 10px;
+}
+
+.menu{
+     display: flex;
+     align-items: center;
+     gap: 30px;
+}
+
+.menulinks{
+     display: flex;
+     border-right: 1px solid black;
+     gap: 30px;
+     padding-inline: 15px;
+}
+
+.menulinks > a{
+     font-weight: 500;
+     color: black;
+     padding: 8px 16px;
+}
+
+.menulinks > a:hover{
+     color: white;
+}
+
+.login{
+     font-weight: 350;
+     padding: 10px 35px;
+     background-color: transparent;
+     color: black;
+     border-radius: 10px;
+     border: 3px solid black;
+     transition: 0.8s;
+}
+.login:hover{
+     background-color: black;
+     color: white;
+}
+
+@media(max-width : 53rem){
+     .menu{
+          display: none;
+     }
+     .menubtn{
+          display: block;
+     }
+}
+
+main > .space {
+     margin: 0 auto;
+     padding: 0 auto;
+     height: 550px;     
+     display: flex;
+
+}
+#map{
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+     margin-top: 3%;
+     padding: 3%;
+     border-radius: 50%;
+     background: #585556;
+     box-shadow:  5px 5px 10px #3e3c3c, -5px -5px 10px #726f70;
+     color: white;
+     text-align: center;
+}
+#my3d{
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+     margin-top: 3%;
+     padding: 3%;
+     border-radius: 50%;
+     background: #585556;
+     box-shadow:  5px 5px 10px #3e3c3c, -5px -5px 10px #726f70;
+     color: white;
+     text-align: center;
+}
+#chat{
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+     margin-top: 3%;
+     padding: 3%;
+     background: #585556;
+     box-shadow:  5px 5px 10px #3e3c3c, -5px -5px 10px #726f70;
+     color: white;
+     text-align: center;
+}
+
+footer{
+     background-color: black;
+     color: white;
+     padding:50px;
+     margin-top: 0 auto;
+     text-align: center;
+     height: 50px;
+
+}

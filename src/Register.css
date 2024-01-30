@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(58,83,115);
+ }
+  #loginbox {
+      opacity: 0.9;
+      padding: 30px;
+      border: 1px solid #ccc;
+      width: 300px;
+      height: 550px;
+      margin: auto;
+      margin-top: 100px;
+      background-color: white;       
+  }
+
+  label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+  }
+
+  input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      font-size: 16px;
+      opacity: 0.3;
+  }
+
+  button {
+      background-color: rgb(41, 128, 185);
+      color: white;
+      padding: 12px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+  }
+
+  button:hover {
+      background-color: rgb(31, 96, 140);
+  }
+
+
+ 
+footer{
+background-color: black;
+color: white;
+padding:50px;
+margin-top: 0 auto;
+text-align: center;
+height: 50px;
+}
+
+.genderdiv{
+    display: flex;
+}
+
+.birthday{
+    display: flex;
+}
+.birthdaydiv{
+    margin-top:10px;
+}
